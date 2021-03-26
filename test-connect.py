@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:pass@146.148.95.51/guestbook", 
+    "postgresql+psycopg2://postgres:pass@IPAddress/dbname", 
     echo=True, pool_size=6, max_overflow=10, encoding='latin1'
 )
 
